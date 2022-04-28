@@ -4,7 +4,7 @@ const bodyParser = require("body-parser")
 const app = express()
 
 app.use(bodyParser.json())
-const port = 6000
+const port = 5000
 
 app.get("/teste", (req, res) => res
     .status(200)
